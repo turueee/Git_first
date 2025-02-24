@@ -12,7 +12,6 @@ public:
   Birch(double height_);
   Birch(double height_, int numberOfBranches, int* numberOfLeaves = nullptr);
   Birch(const Birch& p);
-  Birch(Birch&& p);
   ~Birch();
 
   double GetHeight();
