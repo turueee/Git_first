@@ -32,8 +32,6 @@ Birch::Birch(double height_, int numberOfBranches_, int* numberOfLeaves_)
   if (numberOfBranches_ < 0)
     numberOfBranches_ = 0;
   numberOfBranches = numberOfBranches_;
-  if (numberOfLeaves_<0)
-    numberOfLeaves_ = nullptr;
   numberOfLeaves = numberOfLeaves_;
 }
 
